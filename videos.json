@@ -297,7 +297,8 @@
    "en": "Work faster with shortcuts",
    "he": "עובדים מהר עם קיצורי מקשים"
   },
-  "file": "shortcuts"
+  "file": "shortcuts",
+  "rev": 2
  },
  {
   "id": "manage-albums",
