@@ -1,12 +1,12 @@
 {
- "version": "3.7.2",
+ "version": "3.7.3",
  "released": "2026-11-08",
- "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.7.2/FlowAlbum-Setup-3.7.2.exe",
- "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.7.2/FlowAlbum-3.7.2-apple-silicon.dmg",
- "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.7.2/FlowAlbum-3.7.2-intel.dmg",
+ "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.7.3/FlowAlbum-Setup-3.7.3.exe",
+ "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.7.3/FlowAlbum-3.7.3-apple-silicon.dmg",
+ "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.7.3/FlowAlbum-3.7.3-intel.dmg",
  "notes": [
   "People: the app finds the faces in your photos, on your computer only, and groups them by person. Name them, merge groups, and click a person to see just their photos",
-  "Photos of the same subject: offered as alternatives in a window you can enlarge, with a way to mark the one to use",
+  "Group similar photos: Claude suggests photos of the same thing from other angles, to group as alternatives, in a window you can enlarge, with a way to mark the one to use",
   "Select a few photos and press Space to see them large, side by side",
   "Drag a story by its grip in Photos to move it, and its pages move with it",
   "A language setting for the titles Claude writes (English unless you change it), and Claude asks once before switching when you write in another language",
@@ -14,10 +14,11 @@
   "Settings fit without sideways scrolling, with a separate AI tab",
   "More time steps in Photos, a Check for updates now button, and the view keeps your place when you change the photo size, click a photo on a page or zoom",
   "Find people is easier to find: a People button at the top of Photos, the strip in Design too, and a one-time question in Photos",
+  "Group similar photos is easier to find too (a button, and a one-time question), an empty album opens in Photos with a single welcome box, and Hebrew albums get Hebrew titles",
   "A switch in Photos for All, In album or Not in album, which the People strip follows; the strip opens by itself when Find people is done",
   "A note while Photos is filtered by a person, and \"Remove from the list\" for a card you don't want",
   "The update note now appears for every new version, bug fixes too, and reminds you to close FlowAlbum first",
-  "New guide videos (People, photos of the same subject, P and D shortcuts), suggested in the chat even if you watched the earlier ones",
+  "New guide videos (People, grouping similar photos, P and D shortcuts), suggested in the chat even if you watched the earlier ones",
   "Fixes: moved photos no longer come back as floating guests, alternatives stay one per page, and a spread shared by two stories moves one page at a time",
   "Fixes: Find people now works in the installed apps (3.7.0 was missing a part), and a story's spread layout is redone when its pages move to the other side of the book"
  ]
