@@ -1,11 +1,18 @@
 {
- "version": "3.6.0",
- "released": "2026-11-07",
- "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.6.0/FlowAlbum-Setup-3.6.0.exe",
- "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.6.0/FlowAlbum-3.6.0-apple-silicon.dmg",
- "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.6.0/FlowAlbum-3.6.0-intel.dmg",
+ "version": "3.7.0",
+ "released": "2026-11-08",
+ "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.7.0/FlowAlbum-Setup-3.7.0.exe",
+ "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.7.0/FlowAlbum-3.7.0-apple-silicon.dmg",
+ "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.7.0/FlowAlbum-3.7.0-intel.dmg",
  "notes": [
-  "iPhone photos (HEIC): drag them in, use Import, or put them in a zip or folder. They are turned into high-quality pictures on the way in, with their date, place and colours kept",
-  "A clearer note when a new version is out: it links to the download and the list of what's new, and closes with a ✕"
+  "People: the app finds the faces in your photos, on your computer only, and groups them by person. Name them, merge groups, and click a person to see just their photos",
+  "Photos of the same subject: offered as alternatives in a window you can enlarge, with a way to mark the one to use",
+  "Select a few photos and press Space to see them large, side by side",
+  "Drag a story by its grip in Photos to move it, and its pages move with it",
+  "A language setting for the titles Claude writes (English unless you change it), and Claude asks once before switching when you write in another language",
+  "P and D switch between Photos and Design",
+  "Settings fit without sideways scrolling, with a separate AI tab",
+  "More time steps in Photos, a Check for updates now button, and the view keeps your place when you change the photo size, click a photo on a page or zoom",
+  "Fixes: moved photos no longer come back as floating guests, alternatives stay one per page, and a spread shared by two stories moves one page at a time"
  ]
 }
