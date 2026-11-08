@@ -129,7 +129,7 @@
     lbOpen();
   }
   function copyVideoLink(id, done) {
-    const url = location.origin + location.pathname + "#video=" + encodeURIComponent(id);
+    const url = new URL("v/" + encodeURIComponent(id) + "/", location.href.split("#")[0]).href;      // the video's own page: it has the video's picture as the link preview (a #video= link would show the home page's), then opens the player
     (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject()).then(done, () => { prompt(t("lb_copy"), url); });
   }
   // A link such as .../#video=photos-groups opens that video (and a visitor can copy the link from the window).
