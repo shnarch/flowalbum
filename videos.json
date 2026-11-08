@@ -77,6 +77,28 @@
   "file": "duplicates-alternatives"
  },
  {
+  "id": "people",
+  "category": "Photos",
+  "persona": "pro",
+  "youtube": null,
+  "title": {
+   "en": "Find the people in your photos",
+   "he": "מצאו את האנשים בתמונות שלכם"
+  },
+  "file": "people"
+ },
+ {
+  "id": "same-subject",
+  "category": "Photos",
+  "persona": "pro",
+  "youtube": null,
+  "title": {
+   "en": "Photos of the same subject",
+   "he": "תמונות של אותו נושא"
+  },
+  "file": "same-subject"
+ },
+ {
   "id": "design-spreads",
   "category": "Design",
   "persona": "pro",
