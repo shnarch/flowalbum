@@ -1,9 +1,9 @@
 {
- "version": "3.7.0",
+ "version": "3.7.1",
  "released": "2026-11-08",
- "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.7.0/FlowAlbum-Setup-3.7.0.exe",
- "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.7.0/FlowAlbum-3.7.0-apple-silicon.dmg",
- "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.7.0/FlowAlbum-3.7.0-intel.dmg",
+ "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.7.1/FlowAlbum-Setup-3.7.1.exe",
+ "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.7.1/FlowAlbum-3.7.1-apple-silicon.dmg",
+ "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.7.1/FlowAlbum-3.7.1-intel.dmg",
  "notes": [
   "People: the app finds the faces in your photos, on your computer only, and groups them by person. Name them, merge groups, and click a person to see just their photos",
   "Photos of the same subject: offered as alternatives in a window you can enlarge, with a way to mark the one to use",
@@ -13,6 +13,7 @@
   "P and D switch between Photos and Design",
   "Settings fit without sideways scrolling, with a separate AI tab",
   "More time steps in Photos, a Check for updates now button, and the view keeps your place when you change the photo size, click a photo on a page or zoom",
-  "Fixes: moved photos no longer come back as floating guests, alternatives stay one per page, and a spread shared by two stories moves one page at a time"
+  "Fixes: moved photos no longer come back as floating guests, alternatives stay one per page, and a spread shared by two stories moves one page at a time",
+  "Fixes: Find people now works in the installed apps (3.7.0 was missing a part), and a story's spread layout is redone when its pages move to the other side of the book"
  ]
 }
