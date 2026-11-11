@@ -157,6 +157,16 @@
     if (b) { if (b.dataset.lb === "close") lb.close(); else lbShow(lbAt + (b.dataset.lb === "next" ? 1 : -1)); return; }
     if (e.target === lb || e.target.closest(".lb-stage img")) lb.close();       // the dark area or the picture itself
   });
+  // Space plays or pauses the video (it used to press whatever button had the focus: the close ✕ or the card that opened the video)
+  const lbSpace = (e) => {
+    if (!lb.open || (e.key !== " " && e.code !== "Space")) return;
+    const vid = lb.querySelector("video");
+    if (!vid) return;
+    e.preventDefault(); e.stopPropagation();
+    if (e.type === "keydown" && !e.repeat) { if (vid.paused) vid.play(); else vid.pause(); }
+  };
+  document.addEventListener("keydown", lbSpace, true);
+  document.addEventListener("keyup", lbSpace, true);
   lb.addEventListener("keydown", (e) => {
     if (lbList.length > 1 && (e.key === "ArrowRight" || e.key === "ArrowLeft")) { e.preventDefault(); lbShow(lbAt + (e.key === "ArrowRight" ? 1 : -1)); }
   });
