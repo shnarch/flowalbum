@@ -1,16 +1,15 @@
 {
- "version": "3.8.1",
- "released": "2026-11-10",
- "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.8.1/FlowAlbum-Setup-3.8.1.exe",
- "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.8.1/FlowAlbum-3.8.1-apple-silicon.dmg",
- "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.8.1/FlowAlbum-3.8.1-intel.dmg",
+ "version": "3.9.0",
+ "released": "2026-11-11",
+ "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.9.0/FlowAlbum-Setup-3.9.0.exe",
+ "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.9.0/FlowAlbum-3.9.0-apple-silicon.dmg",
+ "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.9.0/FlowAlbum-3.9.0-intel.dmg",
  "notes": [
-  "Share album: the whole album as one file that opens in any browser, like a real book: closed at the start, and the pages turn. It shows the cover photo in the preview WhatsApp gives, and needs no app to look at",
-  "The assistant's little remarks: short, friendly lines, spoken in the voice of the guide videos, during a long session. Off until you choose how often in Settings › AI",
-  "All letter shortcuts work with a Hebrew keyboard layout, Undo included",
-  "Shorter tooltips everywhere",
-  "Taking out a page, adding one or moving photos is refused, with a clear message, when it would break a locked spread that has a photo across the fold; new stories never wait for that",
-  "Fix: an album with a long burst of photos taken seconds apart could freeze the computer when it opened. This is the important one if 3.7 would not start",
-  "Fix: flipping back a page in a shared album looks right"
+  "A page target: say about how many pages you want when you create the album. Design album then keeps the best photo of each group of similar shots and gives every story a fair share; hero and favorite photos always stay, and the others wait off the pages, marked with the reason",
+  "Photos are split into stories by the calendar: Hour, Half day, Day, Week, Month, Year or Never, with the period that suits your photos suggested. An evening past midnight stays together",
+  "The cover works like a spread: move, resize, crop, add and remove its photos, Redesign cover with arrows through the layouts, ten starting layouts (even none), and Undo for the cover",
+  "Alternatives and Keep together are switches: click again to take them off; a photo is never both; no more Ungroup button",
+  "A clearer start: a one-minute \"Start here\" video offered the first time you use FlowAlbum, beside Design album, and before your first design; the guides panel opens once when videos are suggested",
+  "New guide videos: your album's length, a cover like a spread, sharing the album as a book, and what works without a Claude key"
  ]
 }
