@@ -81,7 +81,8 @@
     $("#vfilters").innerHTML = [["", t("v_all")], ...cats.map((c) => [c, label(c)])]
       .map(([c, text]) => `<button type="button" aria-pressed="${vCat === c}" data-cat="${c}">${text}</button>`).join("");
     $$("#vfilters button").forEach((b) => b.addEventListener("click", () => { vCat = b.dataset.cat; renderVideos(); }));
-    $("#vgrid").innerHTML = videos.filter((v) => !vCat || v.category === vCat || (v.also || []).includes(vCat)).map((v) => {
+    // the video marked `featured` ("Start here") always comes first
+    $("#vgrid").innerHTML = videos.filter((v) => !vCat || v.category === vCat || (v.also || []).includes(vCat)).sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0)).map((v) => {
       const title = (v.title[lang] || v.title.en).replace(/</g, "&lt;");
       const tag = v.persona === "pro" ? (lang === "he" ? window.HE.p_pro_tag : "Professional design") : (lang === "he" ? window.HE.p_quick_tag : "Quick album");
       // a video with a file: its picture and a play button; a click opens it large in the page (the lightbox below) and plays it at once
@@ -90,7 +91,7 @@
         : v.youtube
         ? `<a class="ph vthumb" href="https://www.youtube-nocookie.com/embed/${v.youtube}" target="_blank" rel="noopener"><span class="play">▶</span></a>`
         : `<div class="ph vthumb" aria-hidden="true"><span class="play">▶</span><small>${t("v_soon")}</small></div>`;
-      return `<article class="vcard"${v.file ? ` data-video="${v.id}"` : ""}>${media}<p class="fine vmeta"><span>${label(v.category)} · ${tag}</span>${v.file ? `<button type="button" class="vlink" data-copy="${v.id}" title="${t("lb_copy")}" aria-label="${t("lb_copy")}: ${title}">🔗</button>` : ""}</p></article>`;
+      return `<article class="vcard${v.featured ? " featured" : ""}"${v.file ? ` data-video="${v.id}"` : ""}>${v.featured ? `<span class="vstart">${t("v_start")}</span>` : ""}${media}<p class="fine vmeta"><span>${label(v.category)} · ${tag}</span>${v.file ? `<button type="button" class="vlink" data-copy="${v.id}" title="${t("lb_copy")}" aria-label="${t("lb_copy")}: ${title}">🔗</button>` : ""}</p></article>`;
     }).join("");
   }
 

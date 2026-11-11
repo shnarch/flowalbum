@@ -227,3 +227,8 @@ html.lb-open { overflow: hidden; }
 .vlink { flex: none; border: 1px solid var(--line, #d8d5cc); border-radius: 999px; padding: 2px 9px; background: transparent; color: inherit; font-size: 13px; line-height: 1.4; cursor: pointer; }
 .vlink:hover { border-color: var(--accent); }
 .vlink:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.vcard { position: relative; }
+.vcard.featured { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 12px; }
+.vstart { position: absolute; z-index: 2; top: 10px; left: 10px; background: var(--accent); color: #fff; font-weight: 700; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; pointer-events: none; }
+[dir="rtl"] .vstart { left: auto; right: 10px; }
+.start-here { margin: 6px 0 10px; font-weight: 600; } .start-here a { color: var(--accent); }

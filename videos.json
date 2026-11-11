@@ -19,7 +19,8 @@
    "en": "Bring your photos in",
    "he": "הוספת תמונות"
   },
-  "file": "import"
+  "file": "import",
+  "rev": 2
  },
  {
   "id": "lightroom",
@@ -41,7 +42,8 @@
    "en": "Install FlowAlbum and connect Claude",
    "he": "התקנת FlowAlbum וחיבור ל-Claude"
   },
-  "file": "install-claude-key"
+  "file": "install-claude-key",
+  "rev": 2
  },
  {
   "id": "hebrew-rtl",
@@ -55,6 +57,17 @@
   "file": "hebrew-rtl"
  },
  {
+  "id": "page-target",
+  "category": "Getting started",
+  "persona": "quick",
+  "youtube": null,
+  "title": {
+   "en": "Choose your album's length",
+   "he": "בחירת אורך האלבום"
+  },
+  "file": "page-target"
+ },
+ {
   "id": "photos-groups",
   "category": "Photos",
   "persona": "quick",
@@ -63,7 +76,9 @@
    "en": "Groups and stories in Photos",
    "he": "קבוצות וסיפורים בלשונית Photos"
   },
-  "file": "photos-groups"
+  "file": "photos-groups",
+  "rev": 2,
+  "featured": true
  },
  {
   "id": "duplicates-alternatives",
@@ -173,7 +188,19 @@
    "en": "Design the cover",
    "he": "מעצבים את הכריכה"
   },
-  "file": "cover-text"
+  "file": "cover-text",
+  "rev": 2
+ },
+ {
+  "id": "cover-redesign",
+  "category": "Design",
+  "persona": "pro",
+  "youtube": null,
+  "title": {
+   "en": "Your cover, like a spread",
+   "he": "הכריכה שלכם, כמו כל פריסה"
+  },
+  "file": "cover-redesign"
  },
  {
   "id": "qr-video",
@@ -229,9 +256,18 @@
    "he": "יוצרים מפתח API של Claude"
   },
   "file": "api-key",
-  "also": [
-   "Getting started"
-  ]
+  "rev": 2
+ },
+ {
+  "id": "no-key",
+  "category": "Claude",
+  "persona": "quick",
+  "youtube": null,
+  "title": {
+   "en": "What works without a Claude key",
+   "he": "מה עובד גם בלי מפתח של Claude"
+  },
+  "file": "no-key"
  },
  {
   "id": "add-credit",
@@ -287,6 +323,17 @@
    "he": "שיתוף הוכחה ואיסוף הערות"
   },
   "file": "share-proof"
+ },
+ {
+  "id": "share-album",
+  "category": "Export",
+  "persona": "quick",
+  "youtube": null,
+  "title": {
+   "en": "Share your album as a book",
+   "he": "שיתוף האלבום כספר"
+  },
+  "file": "share-album"
  },
  {
   "id": "shortcuts",
