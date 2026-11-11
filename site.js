@@ -138,6 +138,12 @@
     const m = /^#video=([\w-]+)$/.exec(location.hash), v = m && videos.find((x) => x.id === m[1] && x.file);
     if (v) lbVideo(v.id);
   }
+  // a link to a video inside the page (the "Watch this 1-minute video" line in Download) opens it at once, every time; a changed address does too
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest?.('a[href^="#video="]'), v = a && videos.find((x) => x.id === decodeURIComponent(a.getAttribute("href").slice(7)) && x.file);
+    if (v) { e.preventDefault(); lbVideo(v.id); }
+  });
+  window.addEventListener("hashchange", videoFromAddress);
   lb.addEventListener("close", () => {
     if (lbVideoId) { try { history.replaceState(null, "", "#guides"); } catch {} lbVideoId = ""; }
     lbStage.innerHTML = ""; document.documentElement.classList.remove("lb-open");
