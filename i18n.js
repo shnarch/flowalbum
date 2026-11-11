@@ -82,7 +82,7 @@ window.HE = {
   r6_h: "6. מבקשים מ-Claude", r6_p: "\"תגדיל את תמונת האגם בעמוד 5.\" Claude משנה את האלבום באמצעות אותם כלים שלכם: רווחים, רקעים, מסגרות, הזזה והחלפה של תמונות, ומכבד את הנעילות.",
   r9_h: "9. הדפסת מבחן והדפסה", r9_p: "שולחים הדפסת מבחן לשיתוף: דף אינטרנט שנפתח בכל דפדפן, ובו המשפחה והחברים כותבים הערות לכל עמוד. מייבאים את ההערות בחזרה לאלבום ומטפלים בהן. לבסוף, מייצאים קבצים מוכנים להדפסה עבור בית הדפוס שלכם.",
   guide_video_soon: "מדריך וידאו: בקרוב",
-  v_h: "מדריכים", v_lead: "סרטוני הדרכה קצרים, אחד לכל דבר שאפשר לעשות.", v_all: "הכול", v_soon: "בקרוב", v_start: "להתחיל כאן", v_start_design: "להתחיל לעצב כאן", dl_watch: "▶ סרטון של דקה אחת לפני שמתחילים: חוסך הרבה עבודה",
+  v_h: "מדריכים", v_lead: "סרטוני הדרכה קצרים, אחד לכל דבר שאפשר לעשות.", v_all: "הכול", v_soon: "בקרוב", v_start: "להתחיל כאן", v_start_design: "להתחיל לעצב כאן", dl_watch: "▶ סרטון של 90 שניות לפני שמתחילים: חוסך הרבה עבודה",
   c_Getting_started: "להתחיל", c_Photos: "תמונות", c_Tips: "טיפים", c_Claude: "Claude", c_Design: "עיצוב", c_Export: "ייצוא",
   f_h: "ספרו לנו מה אתם חושבים", f_lead: "מצאתם באג, רוצים תכונה, או נתקעתם? כתבו כאן. זה מגיע ישירות למפתח.",
   f_type: "מה זה?", f_bug: "משהו שבור", f_feat: "רעיון", f_q: "שאלה",
@@ -102,7 +102,7 @@ window.HE = {
 };
 window.EN = {
   lb_close: "Close (Esc)", lb_copy: "Copy link to this video", lb_copied: "Link copied ✓", lb_prev: "Previous", lb_next: "Next", v_play: "Play",
-  v_all: "All", v_soon: "Coming soon", v_start: "Start here", v_start_design: "Start designing here", dl_watch: "▶ Watch this 1-minute video before you start: it saves a lot of work", f_human: "Please tick \u201cVerify you are human\u201d, then send.", f_many: "That is a lot of messages for one hour. Try again later.", f_ok: "Thanks, it's logged.", f_err: "Couldn't send that. Try again in a moment.",
+  v_all: "All", v_soon: "Coming soon", v_start: "Start here", v_start_design: "Start designing here", dl_watch: "▶ Watch this 90-second video before you start: it saves a lot of work", f_human: "Please tick \u201cVerify you are human\u201d, then send.", f_many: "That is a lot of messages for one hour. Try again later.", f_ok: "Thanks, it's logged.", f_err: "Couldn't send that. Try again in a moment.",
   f_short: "Write at least a few words.", f_off: "The feedback box isn't switched on yet.", f_sending: "Sending…", v_released: "Released", v_beta: "beta"
 };
 
