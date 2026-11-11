@@ -91,7 +91,7 @@
         : v.youtube
         ? `<a class="ph vthumb" href="https://www.youtube-nocookie.com/embed/${v.youtube}" target="_blank" rel="noopener"><span class="play">▶</span></a>`
         : `<div class="ph vthumb" aria-hidden="true"><span class="play">▶</span><small>${t("v_soon")}</small></div>`;
-      return `<article class="vcard${v.featured ? " featured" : ""}"${v.file ? ` data-video="${v.id}"` : ""}>${v.featured ? `<span class="vstart">${t("v_start")}</span>` : ""}${media}<p class="fine vmeta"><span>${label(v.category)} · ${tag}</span>${v.file ? `<button type="button" class="vlink" data-copy="${v.id}" title="${t("lb_copy")}" aria-label="${t("lb_copy")}: ${title}">🔗</button>` : ""}</p></article>`;
+      return `<article class="vcard${v.featured ? " featured" : ""}"${v.file ? ` data-video="${v.id}"` : ""}>${v.featured ? `<span class="vstart">${t(v.badge || "v_start")}</span>` : ""}${media}<p class="fine vmeta"><span>${label(v.category)} · ${tag}</span>${v.file ? `<button type="button" class="vlink" data-copy="${v.id}" title="${t("lb_copy")}" aria-label="${t("lb_copy")}: ${title}">🔗</button>` : ""}</p></article>`;
     }).join("");
   }
 
