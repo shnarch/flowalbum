@@ -8,7 +8,8 @@
    "en": "FlowAlbum in 100 seconds: from a pile of photos to a designed album",
    "he": "FlowAlbum ב-100 שניות: מערימת תמונות לאלבום מעוצב"
   },
-  "file": "intro"
+  "file": "intro",
+  "rev": 2
  },
  {
   "id": "import",
