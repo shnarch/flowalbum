@@ -1,14 +1,15 @@
 {
- "version": "3.9.2",
+ "version": "3.9.3",
  "released": "2026-11-15",
- "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.9.2/FlowAlbum-Setup-3.9.2.exe",
- "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.9.2/FlowAlbum-3.9.2-apple-silicon.dmg",
- "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.9.2/FlowAlbum-3.9.2-intel.dmg",
+ "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.9.3/FlowAlbum-Setup-3.9.3.exe",
+ "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.9.3/FlowAlbum-3.9.3-apple-silicon.dmg",
+ "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.9.3/FlowAlbum-3.9.3-intel.dmg",
  "notes": [
   "Moving several photos together, including ones across the fold, keeps them all selected and is one step in Undo",
   "Flipping or turning a photo across the fold keeps both halves, and applying a photo edit can be undone with Command Z",
   "Redesigning a story leaves locked pages exactly where they are, and a photo dropped on a locked page goes on top",
   "Exporting spreads as pictures from a right-to-left album now pairs the pages the way Design shows them",
-  "Space plays and pauses a guide video, and the Start here video is described as about 90 seconds"
+  "Space plays and pauses a guide video, and the Start here video is described as about 90 seconds",
+  "An album made with a page target no longer ends with one photo per page: the chosen photos stay and pages hold more of them"
  ]
 }
