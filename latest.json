@@ -1,10 +1,14 @@
 {
- "version": "3.9.4",
- "released": "2026-11-15",
- "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.9.4/FlowAlbum-Setup-3.9.4.exe",
- "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.9.4/FlowAlbum-3.9.4-apple-silicon.dmg",
- "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.9.4/FlowAlbum-3.9.4-intel.dmg",
+ "version": "3.10.0",
+ "released": "2026-11-16",
+ "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.10.0/FlowAlbum-Setup-3.10.0.exe",
+ "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.10.0/FlowAlbum-3.10.0-apple-silicon.dmg",
+ "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.10.0/FlowAlbum-3.10.0-intel.dmg",
  "notes": [
-  "Exporting spreads as pictures no longer turns some photos upside down or sideways: they come out the way they look in the app"
+  "Switching between Photos and Design keeps your place: each opens on the story you were last working on in the other",
+  "Photos selected across both pages of a spread can be aligned, distributed, spaced evenly, reordered and given a border as one group",
+  "The Gap between photos slider works on pages you edited by hand, as long as the photos are still in rows and columns",
+  "A photo placed on another story's page keeps its own story, and Create story on a draft always makes the whole draft",
+  "Fixes: exported pictures keep photos upright, a group resize across a spread no longer scrambles photos, Redesign spread works with an empty page, and small thumbnails can be dragged to a page again"
  ]
 }
