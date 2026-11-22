@@ -1,14 +1,16 @@
 {
- "version": "3.11.0",
- "released": "2026-11-18",
- "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.11.0/FlowAlbum-Setup-3.11.0.exe",
- "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.11.0/FlowAlbum-3.11.0-apple-silicon.dmg",
- "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.11.0/FlowAlbum-3.11.0-intel.dmg",
+ "version": "3.12.0",
+ "released": "2026-11-21",
+ "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.12.0/FlowAlbum-Setup-3.12.0.exe",
+ "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.12.0/FlowAlbum-3.12.0-apple-silicon.dmg",
+ "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.12.0/FlowAlbum-3.12.0-intel.dmg",
  "notes": [
-  "Your photos become stories as soon as they arrive (by the calendar or by place): no more drafts. A story with no pages is \"not designed yet\"",
-  "New buttons: Design story on each story, and Design all stories at the top",
-  "Changing the split only splits stories again that you haven't designed or shaped by hand",
-  "To take a story out of the album, remove its pages in Design; it stays in Photos and can be designed again",
-  "Fixes: the album stays at its end after removing the last pages, the Pages peek and the scroll bar follow right-to-left albums, the crop bar stays in front, and dragging a box in Photos no longer highlights all the text"
+  "Photo shapes: rounded corners or oval, adjustable with a slider and a number, in the PDF and the proof too",
+  "Copy look / Paste look: put one photo's shape and border on any photos you select",
+  "Shape and Border show while you drag; photo edits (brightness and the rest) are saved as you go, with no Apply button",
+  "When you edit a layout by hand, the earlier design stays as an option: the arrows on the page, the spread and the story all go back to it",
+  "Warnings are small orange signs in a photo's corner: hover to read, click to accept, switch off in Settings",
+  "A folded side panel opens when you rest the pointer on its edge, and folds when you click back in the design",
+  "Fix: zoomed in, the Design area scrolls sideways again (⇧-scroll too)"
  ]
 }
