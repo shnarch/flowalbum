@@ -1,16 +1,16 @@
 {
- "version": "3.12.0",
- "released": "2026-11-21",
- "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.12.0/FlowAlbum-Setup-3.12.0.exe",
- "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.12.0/FlowAlbum-3.12.0-apple-silicon.dmg",
+ "version": "3.13.0",
+ "released": "2026-11-25",
+ "windows": "https://github.com/shnarch/flowalbum/releases/download/v3.13.0/FlowAlbum-Setup-3.13.0.exe",
+ "mac": "https://github.com/shnarch/flowalbum/releases/download/v3.13.0/FlowAlbum-3.13.0-apple-silicon.dmg",
  "mac_intel": "https://github.com/shnarch/flowalbum/releases/download/v3.12.0/FlowAlbum-3.12.0-intel.dmg",
  "notes": [
-  "Photo shapes: rounded corners or oval, adjustable with a slider and a number, in the PDF and the proof too",
-  "Copy look / Paste look: put one photo's shape and border on any photos you select",
-  "Shape and Border show while you drag; photo edits (brightness and the rest) are saved as you go, with no Apply button",
-  "When you edit a layout by hand, the earlier design stays as an option: the arrows on the page, the spread and the story all go back to it",
-  "Warnings are small orange signs in a photo's corner: hover to read, click to accept, switch off in Settings",
-  "A folded side panel opens when you rest the pointer on its edge, and folds when you click back in the design",
-  "Fix: zoomed in, the Design area scrolls sideways again (⇧-scroll too)"
+  "Copy and paste for photos, QR codes and text boxes (⌘C, ⌘V): a pasted photo is a new copy",
+  "Comments from a shared proof follow their photos, so pages added later no longer shift them; each reviewer gets their own colour",
+  "＋ 2 pages adds two pages in one step, and removing two pages together is one step too: the rest of a finished album stays as it is",
+  "Move a page to the neighbouring story, with a hint on pages whose photos belong to another story",
+  "Align bar under a selection of several photos",
+  "Spread, Story and Album each remember their zoom; font lists preview on the text as you browse",
+  "Fix: a designed story only changes when you change it; moving photos onto a locked page keeps its design and crops; resizing a group near the fold no longer jumps"
  ]
 }
